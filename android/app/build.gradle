@@ -1,0 +1,6 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android'; id 'dev.flutter.flutter-gradle-plugin' }
+
+android { namespace 'com.musicman.app'; compileSdk flutter.compileSdkVersion
+    defaultConfig { applicationId 'com.musicman.app'; minSdk 24; targetSdk flutter.targetSdkVersion; versionCode flutterVersionCode.toInteger(); versionName flutterVersionName }
+}
+flutter { source '../..' }
