@@ -21,6 +21,7 @@ if (flutterVersionName == null) {
 android {
     namespace 'com.musicman.app'
     compileSdk flutter.compileSdkVersion
+    ndkVersion "28.2.13676358"
 
     defaultConfig {
         applicationId 'com.musicman.app'
